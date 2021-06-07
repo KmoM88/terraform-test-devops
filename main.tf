@@ -1,10 +1,10 @@
 provider "aws" {
   version = "~> 2.7"
-  region  = "us-east-2"
+  region  = "us-east-1"
 }
 
-resource "aws_instance" "web" {  
-  ami = "ami-077e31c4939f6a2f3"
+resource "aws_instance" "web" {
+  ami = "ami-0d5eff06f840b45e9"
   instance_type = "t2.micro"
 }
 
